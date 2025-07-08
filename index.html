@@ -6,6 +6,112 @@
   <title>cv</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-<body> 
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#about-me" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#code" class="nav__link">Code</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+        <li class="nav__item"><a href="#english" class="nav__link">English</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="about-me">
+      <div class="about-me__image-container">
+        <img src="./" alt="my photo">
+      </div>
+      <div class="about-me__info">
+        <h1 class="about-me__title">Yurina Ekaterina</h1>
+        <p>I am a beginner Frontend developer with a desire to learn and grow in the programming field. My goal is to become a full-fledged developer, and I am actively working on improving and expanding my knowledge. I am learning HTML, CSS, and JavaScript and will apply my knowledge in practice. I strive to continue learning and growing in this field.</p>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__title">Contacts:</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <img src="./" alt="location icon" class="contacts__icon">
+          <span class="contacts__text">Location: Russia, Khabarovsk Krai, Komsomolsk-on-Amur</span>
+        </li>
+        <li class="contacts__item">
+          <img src="./" alt="telegram icon" class="contacts__icon">
+          <span class="contacts__text">Telegram: <a class="contacts__link" href="https://t.me/i_besyashk" target="_blank">@i_besyashka</a></span>
+        </li>
+        <li class="contacts__item">
+          <img src="./" alt="email icon" class="contacts__icon">
+          <span class="contacts__text">Email: <a class="contacts__link" href="mailto:igra.ca@yandex.ru" target="_blank">igra.ca@yandex.ru</a></span>
+        </li>
+        <li class="contacts__item">
+          <img src="./" alt="gitHub icon" class="contacts__icon">
+          <span class="contacts__text">GitHub: <a class="contacts__link" href="https://github.com/ekat-code" target="_blank">ekat-code</a></span>
+        </li>
+      </ul>
+    </section>
+    <section class="skills">
+      <h2 class="skills__title">Skills:</h2>
+      <ul class="skills__list">
+        <li class="skills__item">
+          <img src="./" alt="HTML icon" class="skills__icon">
+          <span class="skills__text">HTML</span>
+        </li>
+        <li class="skills__item">
+          <img src="./" alt="CSS icon" class="skills__icon">
+          <span class="skills__text">CSS</span>
+        </li>
+        <li class="skills__item">
+          <img src="./" alt="javaScript icon" class="skills__icon">
+          <span class="skills__text">JavaScript</span>
+        </li>
+        <li class="skills__item">
+          <img src="./" alt="git icon" class="skills__icon">
+          <span class="skills__text">Git</span>
+        </li>
+        <li class="skills__item">
+          <img src="./" alt="figma icon" class="skills__icon">
+          <span class="skills__text">Figma</span>
+        </li>
+      </ul>
+    </section>
+    <section class="code">
+      <h2 class="code__title">Code:</h2>
+      <pre>
+        <code>
+          function greet() {
+            return 'Hi, friend!';
+          }
+        </code>
+      </pre>
+    </section>
+    <section class="projects">
+      <h2 class="projects__title">Projects:</h2>
+      <img src="./img/project.png" alt="project image">
+      <h3>CV (Markdow)</h3>
+      <a href="https://ekat-code.github.io/rsschool-cv/cv">Deploy link</a>
+      <a href="https://github.com/ekat-code/rsschool-cv/tree/rsschool-cv-html">Repository link</a>
+    </section>
+    <section class="education">
+      <h2 class="education__title">Education:</h2>
+      <p>secondary special - medical laboratory technician</p>
+      <p>Khabarovsk State Medical College named after G.S. Makarov, Komsomolsk-on-Amur</p>
+    </section>
+    <section class="english">
+      <h2 class="english__title">English:</h2>
+      <p>A1</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/ekat-code" target="_blank">
+      <img src="./icon/github.svg" alt="icon github">
+      <span>Ekaterina</span>
+    </a>
+    <p>&copy; 2025</p>
+    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+      <img src="./icon/rs-school.svg" alt="icon rs school" width="130">
+    </a>
+  </footer>
 </body>
 </html>
